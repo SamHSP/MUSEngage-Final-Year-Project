@@ -1,0 +1,7 @@
+{
+  "name": "qr-scanner",
+  "version": "1.0.0-local",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module"
+}
