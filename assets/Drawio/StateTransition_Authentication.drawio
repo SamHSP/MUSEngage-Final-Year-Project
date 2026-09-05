@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="2532" dy="-194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-1" value="Authentication State Transition" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="870" width="910" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-23" value="&lt;div&gt;Send request to backend&lt;/div&gt;&lt;div&gt;server to&amp;nbsp;query for existing&amp;nbsp;&lt;/div&gt;&lt;div&gt;usernames and&amp;nbsp;validate&amp;nbsp;&lt;/div&gt;&lt;div&gt;credentials&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="250" y="190" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-3" value="Login Form" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="150" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-26" value="&lt;div&gt;Request returns&amp;nbsp;&lt;/div&gt;&lt;div&gt;True&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="540" y="230" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-27" value="&lt;div&gt;Request returns&amp;nbsp;&lt;/div&gt;&lt;div&gt;False&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="470" y="160" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-29" value="&lt;div&gt;Send Request&lt;/div&gt;&lt;div&gt;to generate a&lt;/div&gt;&lt;div&gt;6 digit OTP and&amp;nbsp;&lt;/div&gt;&lt;div&gt;store into OTP collection&lt;/div&gt;&lt;div&gt;and send an Email.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="710" y="320" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-30" value="Alert: Invalid Credentials&lt;div&gt;and Return to Login&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="230" y="70" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-17" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="560" y="570" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-7" value="OTP Entered" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="650" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-14" value="Authentication Alert" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="320" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-16" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="320" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NNmKliSb48n1IQ6CLeQI-1" source="NNmKliSb48n1IQ6CLeQI-7" target="NNmKliSb48n1IQ6CLeQI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="NNmKliSb48n1IQ6CLeQI-1" source="NNmKliSb48n1IQ6CLeQI-14" target="NNmKliSb48n1IQ6CLeQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NNmKliSb48n1IQ6CLeQI-1" source="NNmKliSb48n1IQ6CLeQI-16" target="NNmKliSb48n1IQ6CLeQI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NNmKliSb48n1IQ6CLeQI-1" source="NNmKliSb48n1IQ6CLeQI-14" target="NNmKliSb48n1IQ6CLeQI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-31" value="&lt;div&gt;Send a request to&lt;/div&gt;&lt;div&gt;validate if OTP Entered&lt;/div&gt;&lt;div&gt;matches the OTP log&lt;/div&gt;&lt;div&gt;in the OTP collection&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="470" y="380" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-32" value="&lt;div&gt;Request returns&amp;nbsp;&lt;/div&gt;&lt;div&gt;True&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="390" y="500" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-33" value="&lt;div&gt;Request returns&amp;nbsp;&lt;/div&gt;&lt;div&gt;False&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NNmKliSb48n1IQ6CLeQI-1">
+          <mxGeometry x="220" y="365" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-4" value="&lt;div&gt;Validate Credential&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-6" value="Requesting OTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-5" value="Error Alert" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="1130" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNmKliSb48n1IQ6CLeQI-6" target="NNmKliSb48n1IQ6CLeQI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNmKliSb48n1IQ6CLeQI-3" target="NNmKliSb48n1IQ6CLeQI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNmKliSb48n1IQ6CLeQI-4" target="NNmKliSb48n1IQ6CLeQI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNmKliSb48n1IQ6CLeQI-4" target="NNmKliSb48n1IQ6CLeQI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNmKliSb48n1IQ6CLeQI-5" target="NNmKliSb48n1IQ6CLeQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNmKliSb48n1IQ6CLeQI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NNmKliSb48n1IQ6CLeQI-2" target="NNmKliSb48n1IQ6CLeQI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

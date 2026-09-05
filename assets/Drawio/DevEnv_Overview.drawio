@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2">
+  <diagram name="Page-1" id="3gJvEWin6O7_ipJBpLHX">
+    <mxGraphModel dx="2878" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YtLbMLMoHzJ-tFl_NC5b-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="110" width="990" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Development Environment&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-7" value="" style="swimlane;startSize=0;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="280" y="200" width="580" height="640" as="geometry">
+            <mxRectangle x="250" y="230" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-10" value="Mongodb Docker Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="350" y="100" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-43" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" parent="us0WWij96Nmr6y0RR0os-10" vertex="1">
+          <mxGeometry x="21.87" y="40" width="168.13" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;" parent="us0WWij96Nmr6y0RR0os-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="384.79999999999995" as="sourcePoint" />
+            <mxPoint x="499.9999999999998" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" parent="us0WWij96Nmr6y0RR0os-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="440" as="targetPoint" />
+            <mxPoint x="350" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="440" />
+              <mxPoint x="300" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-14" value="React Server Docker Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="30" y="100" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-19" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.nodejs_performance_platform;" parent="us0WWij96Nmr6y0RR0os-14" vertex="1">
+          <mxGeometry x="33.55" y="35" width="132.91" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="us0WWij96Nmr6y0RR0os-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="530" as="sourcePoint" />
+            <mxPoint x="350" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="529.8" />
+              <mxPoint x="260" y="529.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-21" value="Nginx Docker Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="30" y="384.8" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-20" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.web_server;" parent="us0WWij96Nmr6y0RR0os-21" vertex="1">
+          <mxGeometry x="32.5" y="50" width="135" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" parent="us0WWij96Nmr6y0RR0os-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="340" />
+              <mxPoint x="410" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-34" value="&lt;div&gt;Proxy&lt;/div&gt;&lt;div&gt;HTTP&lt;/div&gt;&lt;div&gt;Requests&amp;nbsp;&lt;/div&gt;&lt;div&gt;to Backend&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="250" y="449.8" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-35" value="&lt;div&gt;Sends&amp;nbsp;&lt;/div&gt;&lt;div&gt;HTTP&lt;/div&gt;&lt;div&gt;&amp;nbsp;Response&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="260" y="370" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-36" value="&lt;div&gt;Query&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="430" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-37" value="&lt;div&gt;Query&lt;/div&gt;&lt;div&gt;Result&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="350" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-4" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="260" y="30" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-12" value="Backend Docker Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="us0WWij96Nmr6y0RR0os-7" vertex="1">
+          <mxGeometry x="350" y="384.8" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-16" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" parent="us0WWij96Nmr6y0RR0os-12" vertex="1">
+          <mxGeometry x="21.869999999999997" y="37.5" width="156.26" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149.99999999999977" y="714.8344827586207" as="sourcePoint" />
+            <mxPoint x="310" y="715" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="714.8" />
+              <mxPoint x="190" y="714.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-8" value="Client (Browser)" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" parent="1" vertex="1">
+          <mxGeometry x="10" y="614.8" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e3c800;strokeColor=#B09500;" parent="1" source="us0WWij96Nmr6y0RR0os-14" target="us0WWij96Nmr6y0RR0os-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-33" value="&lt;div&gt;Sends HTTP&amp;nbsp;&lt;/div&gt;&lt;div&gt;Request&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="160" y="714.8" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-38" value="&lt;div&gt;Serve&amp;nbsp;&lt;/div&gt;&lt;div&gt;React Bundle (HTML/JS/CSS)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="355" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="664.8" />
+              <mxPoint x="190" y="664.8" />
+            </Array>
+            <mxPoint x="309.9999999999998" y="664.8344827586207" as="sourcePoint" />
+            <mxPoint x="149.99999999999977" y="664.8344827586207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="us0WWij96Nmr6y0RR0os-41" value="&lt;div&gt;Proxy Backend&#39;s&amp;nbsp;&lt;/div&gt;&lt;div&gt;HTTP&amp;nbsp;&lt;/div&gt;&lt;div&gt;Response&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="150" y="604.8" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
