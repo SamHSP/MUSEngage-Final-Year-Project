@@ -1,0 +1,27 @@
+{
+  "name": "MUSEngage",
+  "short_name": "MUSEngage",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e12744",
+  "description": "Stay connected with events, rewards and PASS sessions even when you're offline.",
+  "icons": [
+    {
+      "src": "/MUSE_logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/MUSE_logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/MUSE_logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
