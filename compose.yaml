@@ -1,0 +1,64 @@
+name: MUSEngage
+services:
+  nginx:
+    image: nginx:stable
+    volumes:
+      - ./backend/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./robots.txt:/etc/nginx/robots.txt:ro
+    ports:
+      - 8000:80
+    depends_on:
+      - backend
+      - frontend
+  frontend:
+    image: "node:lts"
+    user: "root"  # Using root for development to avoid permission issues (use node in production)
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+      - NPM_CONFIG_REGISTRY=https://registry.npmmirror.com
+      # - WDS_SOCKET_PORT=0
+    volumes:
+      - ./frontend/:/home/node/app
+      - /home/node/app/node_modules
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    # Uncomment one or the other 
+    command: sh -c "npm ci && npm run dev" # Use this if there are no problems.
+    # command: npm run dev # Use this if node modules are already installed
+    # command: sh -c "npm ci && npm run build && npx serve -s dist -l 8000"
+ 
+  backend:
+    image: MUSEngage/backend
+    build: ./backend
+    volumes:
+      - ./backend/:/usr/src/app
+    expose:
+      - "3001"
+    ports:
+      - "8001:3001"
+    command: "python src/server.py"
+    env_file:
+      - path: ./.env
+        required: true
+
+  mongo:
+    image: mongo:7.0
+    restart: always
+    ports:
+      - "27017:27017"   # optional: expose to host
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    env_file:
+      - path: ./.env
+        required: true
+
+volumes:
+
+  mongo_data:
